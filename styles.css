@@ -1,0 +1,13 @@
+div[role="dialog"] {
+  border-radius: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-reach-dialog-overlay] {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  div[role="dialog"] {
+    background: black;
+    border: 2px solid #1f2838;
+  }
+}
