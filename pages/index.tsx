@@ -214,7 +214,9 @@ export default function Home() {
                     <ExclamationCircleIcon className="w-6 h-6 text-black dark:text-white" />
                   )}
                 </button>
-                <p>format(new Date(), "{tokens.join("")}")</p>
+                <p className="text-black dark:text-white">
+                  format(new Date(), "{tokens.join("")}")
+                </p>
               </div>
               <div className="flex items-center p-2 border-2 border-gray-200 rounded-md">
                 <p className="flex-1 text-base text-center text-black dark:text-white">
